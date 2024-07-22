@@ -13,7 +13,7 @@ const AboutUs5 = () => {
               <div className="main-tit">
                 <Split>
                   <h2 className="wow words chars splitting" data-splitting>
-                    We Are The Leader <br /> In The Architectural
+                  From Idea to Reality 
                   </h2>
                 </Split>
               </div>

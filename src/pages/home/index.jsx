@@ -8,6 +8,7 @@ import Services6 from "../../components/Services6";
 import Portfolio3 from "../../components/Portfolio3";
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
+import AboutUs6 from "src/components/About-Us6";
 
 const Home6 = () => {
   React.useEffect(() => {
@@ -16,7 +17,7 @@ const Home6 = () => {
   return (
     <MainSkin>
       <Intro5 />
-      <AboutUs5 />
+      <AboutUs6 />
       <Portfolio3 />
       <Process2 />
       <Services6 />

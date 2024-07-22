@@ -15,13 +15,14 @@ const Intro5 = () => {
             <div className="caption hmone">
               <Split>
                 <h1 data-splitting className="words chars splitting">
-                  <Link href="#">Elegant &amp; Unique Design</Link>
+                  <Link href="#">Efficient &amp; Ergonomic Design</Link>
                   <div className="bord"></div>
                 </h1>
               </Split>
               <p className="mt-10">
-                Right design and right ideas matter a lot of in interior design
-                business. <br /> a style that makes a statement.
+              Our core philosophy is creating stylish designs  <br /> 
+              which suit your family’s everyday needs and last in time.     
+          
               </p>
               <Link href="/project-details">
                 <a className="btn-curve btn-bord btn-lit mt-30">
