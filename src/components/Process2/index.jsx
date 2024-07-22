@@ -9,7 +9,8 @@ const Process2 = () => {
             <div className="item md-mb50">
               <h4>01</h4>
               <h5>Design Process</h5>
-              <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+              <p>Our team adapts to your schedule and set calls and meetings in order to understand your expectations. Throughout the concept stage we use 3D-modeling for you to visualize your future home and for us to better understand your needs. 
+              </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
