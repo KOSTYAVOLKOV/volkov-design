@@ -17,7 +17,7 @@ const Home6 = () => {
   return (
     <MainSkin>
       <Intro5 />
-      <AboutUs6 />
+      <AboutUs5 />
       <Portfolio3 />
       <Process2 />
       <Services6 />
