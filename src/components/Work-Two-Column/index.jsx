@@ -14,7 +14,7 @@ export const WorkTwoColumn = () => {
       <section className="works filter-img section-padding">
         <div className="container">
           <div className="row gallery">
-            <div className="col-lg-6 items mt-0 interior theaters residential">
+            <div className="col-lg-6 items mt-0 interior commercial residential">
               <div className="section-head mb-0">
                 <h3>Works</h3>
 
@@ -24,23 +24,23 @@ export const WorkTwoColumn = () => {
                       All
                     </span>
                     <span data-filter=".interior">Interior</span>
-                    <span data-filter=".theaters">Theaters</span>
+                    <span data-filter=".commercial">Commercial</span>
                     <span data-filter=".residential">Residential</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 items theaters">
+            <div className="col-lg-6 items commercial">
               <div className="item">
                 <div className="img">
                   <img src="/assets/img/works/2.jpg" alt="" />
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="/project-details-hilversum">Hilversum</Link>
                   </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>Interior renovation</span>
+                  <span></span>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ export const WorkTwoColumn = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 items theaters">
+            <div className="col-lg-6 items commercial">
               <div className="item">
                 <div className="img">
                   <img src="/assets/img/works/4.jpg" alt="" />

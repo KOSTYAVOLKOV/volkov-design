@@ -9,6 +9,9 @@ import Portfolio3 from "../../components/Portfolio3";
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import AboutUs6 from "src/components/About-Us6";
+import AboutUs8 from "src/components/About-Us8";
+import Portfolio1 from "src/components/Portfolio1";
+import Portfolio2 from "src/components/Portfolio2";
 
 const Home6 = () => {
   React.useEffect(() => {
@@ -17,8 +20,8 @@ const Home6 = () => {
   return (
     <MainSkin>
       <Intro5 />
-      <AboutUs5 />
-      <Portfolio3 />
+      <AboutUs8 />
+      <Portfolio2 />
       <Process2 />
       <Services6 />
       {/* <VideoWithTestimonials /> */}

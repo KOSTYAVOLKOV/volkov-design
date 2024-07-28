@@ -13,11 +13,11 @@ const Work1 = () => {
     <MainSkin>
       <WorkHeader
         title={{
-          first: "Architecture is a visual art,",
-          second: "and the building speak for themeselves",
+          first: "Discover the art of interior design with us today.",
+          second: "Let us help you create a space you’ll love to live in.",
         }}
         // title = "text",
-        content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
+        content="Our team of expert interior designers is dedicated to transforming your space into a masterpiece that reflects your unique style and personality. Whether you’re looking to revamp your home, office, or commercial space, we provide personalized design solutions that cater to your needs. "
       />
       <WorkTwoColumn />
     </MainSkin>

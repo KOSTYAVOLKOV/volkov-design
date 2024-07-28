@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import MainSkin from "src/layouts/main-skin";
 import Intro5 from "src/components/Intro5";
-import AboutUs5 from "src/components/About-Us5";
+import AboutUs8 from "src/components/About-Us8";
 import Portfolio3 from "src/components/Portfolio3";
 import Process2 from "src/components/Process2";
 import Services6 from "src/components/Services6";
@@ -17,7 +17,7 @@ export default function Home({ id }) {
   return (
     <MainSkin>
       <Intro5 />
-      <AboutUs5 />
+      <AboutUs8/>
       <Portfolio3 />
       <Process2 />
       <Services6 />

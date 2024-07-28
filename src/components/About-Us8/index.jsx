@@ -13,11 +13,10 @@ import React from "react";
             </div>
             <div className="box">
               <h2 className="fz-40 fw-600 ls1 mb-20">
-                25 years <br /> of Experience
+              From Idea  <br /> to Reality
               </h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam
+              Your vision is brought to life by our in-house team of professionals. We manage the full construction/renovation process from concept, budgeting and purchasing of materials to lighting, heating and furniture installation. Our pool of suppliers, vendors and manufacturers provide us with discounts which allow significant budget cuts. 
               </p>
             </div>
           </div>
