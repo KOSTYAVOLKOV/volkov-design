@@ -19,7 +19,7 @@ const ProjectDetails = () => {
         fullPath={[
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "portfolio", url: "/work1" },
-          { id: 3, name: "project details", url: "/project-details" },
+          { id: 3, name: "project details", url: "/project-details-hilversum" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
       />

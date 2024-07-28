@@ -24,7 +24,7 @@ const Intro5 = () => {
               which suit your family’s everyday needs and last in time.     
           
               </p>
-              <Link href="/project-details">
+              <Link href="/project-details-hilversum">
                 <a className="btn-curve btn-bord btn-lit mt-30">
                   <span>Read More</span>
                 </a>
