@@ -1,22 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
-  "/blog-details": "pages/blog-details.html",
-  "/blogs": "pages/blogs.html",
-  "/contact": "pages/contact.html",
-  "/demos": "pages/demos.html",
-  "/home": "pages/home.html",
-  "/": "pages/index.html",
-  "/project-details-Burgum": "pages/project-details-Burgum.html",
-  "/project-details-Red lignts": "pages/project-details-Red lignts.html",
-  "/project-details-hilversum": "pages/project-details-hilversum.html",
-  "/project-details-schiedam": "pages/project-details-schiedam.html",
-  "/project-details-wilanow": "pages/project-details-wilanow.html",
-  "/project-details-zuid": "pages/project-details-zuid.html",
-  "/work": "pages/work.html",
-  "/work1": "pages/work1.html",
-  "/work2": "pages/work2.html",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
