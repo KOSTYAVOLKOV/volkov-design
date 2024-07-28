@@ -25,7 +25,7 @@ const NextProject = () => {
                       className="wow txt words chars splitting"
                       data-splitting
                     >
-                      <b> Zuid 
+                     
                     </h2>
                   </Split>
                 </a>
