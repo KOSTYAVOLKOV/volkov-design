@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/project-details-hilversum": [
+    "/project-details-zuid": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/project-details-hilversum.js"
+      "static/chunks/pages/project-details-zuid.js"
     ]
   },
   "ampFirstPages": []

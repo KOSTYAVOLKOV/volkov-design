@@ -9,14 +9,14 @@ const NextProject = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="content text-center">
-              <Link href="/project-details-zuid">
+              <Link href="/project-details-wilanow">
                 <a>
                   <Split>
                     <h6
                       className="wow txt words chars splitting"
                       data-splitting
                     >
-                      Zuid
+                      Wilanow
                     </h6>
                   </Split>
 

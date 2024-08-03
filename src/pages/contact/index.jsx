@@ -4,6 +4,12 @@ import ContactInfo from "../../components/Contact-info";
 import ContactWithMap from "../../components/Contact-with-map";
 import MainLayout from "../../layouts/main";
 import MainSkin from "src/layouts/main-skin";
+import PricingTable from "src/components/Pricing-Table";
+import Process from "src/components/Process";
+import ScrollToTop from "src/components/scrollToTop";
+import Brands from "src/components/Brands";
+import Footer from "src/components/Footer";
+import Portfolio1 from "src/components/Portfolio1";
 
 const Contact = () => {
    React.useEffect(() => {
@@ -21,7 +27,12 @@ const Contact = () => {
       />
       <section className="contact">
         <ContactInfo />
+        <PricingTable></PricingTable>
+       
+
         <ContactWithMap />
+      
+
       </section>
     </MainSkin>
   );
