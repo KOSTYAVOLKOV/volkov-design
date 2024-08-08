@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/project-details-hilversum.js"
-    ],
-    "/project-details-zuid": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/project-details-zuid.js"
     ]
   },
   "ampFirstPages": []

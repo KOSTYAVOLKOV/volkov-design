@@ -7,7 +7,7 @@ import NextProject from "../../components/Next-Project";
 import ProjectVideo from "../../components/Project-Video";
 import MainSkin from "src/layouts/main-skin";
 import AfterBefore from "src/components/After-Before";
-import ImageGallery from "src/components/imagegallery/ImageGallery";
+
 import Portfolio1 from "src/components/Portfolio1";
 import Testimonials1 from "src/components/Testimonials1";
 import ModalVideo from "react-modal-video";
@@ -61,22 +61,10 @@ const ProjectDetails = () => {
 
         </div>
       </section>
-      {/* <Testimonials1/>*/}
-      {/* <section className="projdtal">
-        <div className="justified-gallery">
-          <div className="row">
-            <VolkovSlider
-              data={data}
-            />
-          </div>
-        </div>
-      </section> */}
+  
 
       <ProjectVideo />
-      {/* <VolkovSlider
-
-        data={data2}
-      /> */}
+    
 
       <NextProject />
     </MainSkin>

@@ -10,6 +10,10 @@ import ScrollToTop from "src/components/scrollToTop";
 import Brands from "src/components/Brands";
 import Footer from "src/components/Footer";
 import Portfolio1 from "src/components/Portfolio1";
+import Portfolio3 from "src/components/Portfolio3";
+import Blogs1 from "src/components/Blogs1";
+import { SwiperSlide } from "swiper/react";
+import ImageGallery from "src/components/imagegallery/ImageGallery";
 
 const Contact = () => {
    React.useEffect(() => {
@@ -17,6 +21,7 @@ const Contact = () => {
    }, []);
   return (
     <MainSkin>
+      
       <PageHeader
         title="Contact Us"
         fullPath={[
@@ -28,7 +33,7 @@ const Contact = () => {
       <section className="contact">
         <ContactInfo />
         <PricingTable></PricingTable>
-       
+       <ImageGallery/>
 
         <ContactWithMap />
       
