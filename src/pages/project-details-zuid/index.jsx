@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
@@ -8,12 +8,24 @@ import ProjectVideo from "../../components/Project-Video";
 import MainSkin from "src/layouts/main-skin";
 import AfterBefore from "src/components/After-Before";
 import ImageGallery from "src/components/imagegallery/ImageGallery";
+import Portfolio1 from "src/components/Portfolio1";
+import Testimonials1 from "src/components/Testimonials1";
+import ModalVideo from "react-modal-video";
+import Slider from "react-slick";
+import Testimonials2 from "src/components/Testimonials2";
+import VolkovSlider from "src/components/VolkovSlider/VolkovSlider";
+import data from '../../data/volkov-works-slide.json'
+import data2 from '../../data/volkov/volkov-works-slide2.json'
 
 const ProjectDetails = () => {
 
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   }, []);
+
+  const [isSliderShow, setIsSliderShow] = useState(false)
+
+
   return (
     <MainSkin>
       <PageHeader
@@ -26,42 +38,45 @@ const ProjectDetails = () => {
         image="/assets/img/portfolio/project2/bg.jpg"
       />
       <AfterBefore></AfterBefore>
+
       <ProjectIntro />
+
       <section className="projdtal">
         <div className="justified-gallery">
           <div className="row">
             <a href="#" className="col-lg-4 col-xl-3 col-md-12">
               <img alt="" src="/assets/img/portfolio/project2/1.jpg" />
             </a>
-            <a href="#" className="col-lg-4 col-xl-3 col-md-6">
+            <a href="/work1" className="col-lg-4 col-xl-3 col-md-6">
               <img alt="" src="/assets/img/portfolio/project2/2.jpg" />
             </a>
-            <a href="#" className="col-lg-4 col-xl-3 col-md-6">
+            <a href="/work1" className="col-lg-4 col-xl-3 col-md-6">
               <img alt="" src="/assets/img/portfolio/project2/6.jpg" />
             </a>
             <a href="#" className="col-lg-4 col-xl-3 col-md-12">
               <img alt="" src="/assets/img/portfolio/project2/3.jpg" />
             </a>
           </div>
+
+
         </div>
       </section>
+      {/* <Testimonials1/>*/}
+      {/* <section className="projdtal">
+        <div className="justified-gallery">
+          <div className="row">
+            <VolkovSlider
+              data={data}
+            />
+          </div>
+        </div>
+      </section> */}
 
       <ProjectVideo />
-   
+      {/* <VolkovSlider
 
-      
-
-      <section className="projdtal">
-        <div className="justified-gallery">
-          <a href="#" className="col-lg-4 col-xl-3 col-md-6">
-            <img alt="" src="/assets/img/portfolio/project2/8.jpg" />
-          </a>
-          <a href="#" className="col-lg-4 col-xl-3 col-md-6">
-            <img alt="" src="/assets/img/portfolio/project2/9.jpg" />
-          </a>
-        </div>
-      </section>
-
+        data={data2}
+      /> */}
 
       <NextProject />
     </MainSkin>

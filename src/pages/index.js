@@ -7,6 +7,7 @@ import Portfolio3 from "src/components/Portfolio3";
 import Process2 from "src/components/Process2";
 import Services6 from "src/components/Services6";
 import Blogs5 from "src/components/Blogs5";
+import Home6 from "./home";
 
 
 export default function Home({ id }) {
@@ -15,15 +16,7 @@ export default function Home({ id }) {
   }, []);
 
   return (
-    <MainSkin>
-      <Intro5 />
-      <AboutUs8/>
-      <Portfolio3 />
-      <Process2 />
-      <Services6 />
-      {/* <VideoWithTestimonials /> */}
-      {/* <SkillsCircle2 /> */}
-      <Blogs5 />
-    </MainSkin>
+    
+    <Home6/>
   );
 }

@@ -10,7 +10,7 @@ const Testimonials2 = () => {
     <section className="testimonials2 bg-blc">
       <div className="container-fluid no-padding">
         <div className="row">
-          <div className="col-lg-8 no-padding order2">
+          <div className="col-lg-12 no-padding order2">
             <div className="box">
               <Slider
                 className="testimslic-item wow fadeInUp"
